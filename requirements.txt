@@ -1,0 +1,8 @@
+# Function dependencies, for example:
+# package>=version
+requests
+lxml
+google-cloud-storage
+pytz
+beautifulsoup4
+regex
