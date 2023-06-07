@@ -25,6 +25,8 @@ Python3.9
 - GitHub上にアップロードされている.pyファイルの関数を、Cloud Functionsに設置します
 - requirements.txtは、Git Hub上にアップロードされているものを設定してください
 - エントリポイントはすべてmain
+- main関数の引数に設定されているrequestは、Cloud Functionsの仕様上必要になるものです
+    - ローカル環境でテストする場合、main関数の引数を空にしてから実行してください
 - バケット名・トークンIDなど、書き換えるべき場所は書き換えてください
 
 
